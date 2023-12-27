@@ -9,3 +9,5 @@
 
 - Si no existe, lo añadimos al array `cart` (ten cuidado de no olvidar añadir la propiedad `quantity` con valor 1 al producto antes de hacer push). 
 - Si, en cambio, este producto ya se encuentra en el carrito, deberemos incrementar el campo `quantity` de este producto en el carrito.
+
+![ejercicio1](https://github.com/Luiso-o/Ejercicio-S2.2.-E-commerce/assets/128043647/22695b39-3a68-4ba0-ac88-ed4ba1b0af23)
