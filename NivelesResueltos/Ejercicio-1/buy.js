@@ -1,9 +1,8 @@
-import products from './products.json' assert {type : 'json'};
+import products from '../products.json' assert {type : 'json'};
 
 var cart = [];
 
-// Exercise 1
-function buy(id) {
+export function buy(id) {
     // 1. Loop for to the array products to get the item to add to cart
     var productToAdd = products.find(product => product.id === id);
 
@@ -27,9 +26,3 @@ function buy(id) {
       }
 
 }
-
-buy(1);
-buy(2);
-buy(3);
-buy(3);
-buy(10);

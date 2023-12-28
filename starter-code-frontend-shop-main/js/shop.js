@@ -41,14 +41,15 @@ function buy(id) {
 
 }
 
-
-buy(3);
-buy(3);
+//buy(1);
 
 // Exercise 2
 function cleanCart() {
-
+ cart = []
+ console.log("Carrito actual: ", cart);
 }
+
+//cleanCart();
 
 // Exercise 3
 function calculateTotal() {
