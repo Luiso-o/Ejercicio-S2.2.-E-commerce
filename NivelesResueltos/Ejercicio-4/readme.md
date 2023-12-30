@@ -13,3 +13,5 @@
 
 - En caso de que un producto tenga descuento, se debe guardar el precio total con descuento en el campo `subtotalWithDiscount`.
 - Si no se debe aplicar descuento, no es necesario guardar nada.
+
+![Ejercicio4](https://github.com/Luiso-o/Ejercicio-S2.2.-E-commerce/assets/128043647/e6a27736-3751-485b-a5e3-7bab27465f8d)
