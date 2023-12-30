@@ -42,6 +42,8 @@ function buy(id) {
 }
 
 //buy(1);
+//buy(1);
+//buy(1);
 
 // Exercise 2
 function cleanCart() {
@@ -54,12 +56,27 @@ function cleanCart() {
 // Exercise 3
 function calculateTotal() {
     // Calculate total price of the cart using the "cartList" array
+    total = cart.reduce((precio, producto) => precio + producto.price * producto.quantity, 0);
+    console.log(`El precio total del carrito es de ${total} euros.`)
 }
+
+calculateTotal();
 
 // Exercise 4
 function applyPromotionsCart() {
     // Apply promotions to each item in the array "cart"
+    cart.forEach(product => {
+        if (product.id === 1 && product.quantity >= 3) {
+            product.price *= 0.80;
+
+        } else if (product.id === 3 && product.quantity >= 10) {
+            product.price *= 0.70;
+        }
+    });
 }
+
+//applyPromotionsCart();
+//calculateTotal();
 
 // Exercise 5
 function printCart() {
